@@ -32,13 +32,29 @@
       </div>
       <section id="calculadora">
         <h1>Retângulo</h1>
-          <form> 
             <label for="base-retangulo"> Base: </label>
             <input id="base-retangulo" type="number">
             <label for="altura-retangulo"> altura: </label>
             <input id="altura-retangulo" type="number">
-            <button>Calcular</button>
+            <button onclick="myFunction()">Calcular</button>
             <button>Limpar</button>
+            <!DOCTYPE html>
+            
+            <p id="demo">Resultado: </p>
+
+            <script>
+            //document.getElementById("butao").addEventListener("click", myFunction);
+            //var val = $(".val-input").html();
+              var base = "";
+              var area = "";
+                
+            function myFunction() {
+              base = document.getElementById('base-retangulo').value;
+                area = document.getElementById('area-retangulo').value;
+              document.getElementById('demo').innerHTML = base * area;    
+            }
+            </script>
+
             
             <h1>Circunferência</h1>
             <label for="raio-circulo">Raio</label>
