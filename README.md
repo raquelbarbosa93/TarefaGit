@@ -1,3 +1,7 @@
+RAQUEL CRISTINA DA SILVA COELHO BARBOSA
+DANILO SOUZA
+
+
 Equipe: trabalhar em duplas ou até trios (no máximo)
 Objetivo: escrever a documentação (negócio/requisitos) e implementar o código de um sistema que permite o cálculo da área e perímetro de 
 circunferências (área PI.R^2. perímetro 2.PI.R) 
