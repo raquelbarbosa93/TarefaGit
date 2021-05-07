@@ -193,15 +193,3 @@ Em progresso
 Finalizadas
 
 
-Anotações da Aula
-
-Inicializar um repositório: Git init
-Remover repositório rm -rf .git 
-Enviar arquivos e pastas para stage: git add nome do arquivo . ponto add tudo que foi criada - A --all (add todos os arquivos apagados, modificados, acrescentados)
-Remover do stage: git --cached
-Confirmar envio ao repositório: git commit -m "mensagem de commit"
-costuma-se colocar na mensagem "primeiro commit"
-Histórico do repositório: git log
-Voltar para versão antiga: copiar hash e dar um git checkout <primeiros caracteres e dígito
-git branch -D <nome da branch>: apaga a branch
-
