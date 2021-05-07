@@ -22,27 +22,3 @@
     <label for="raio-circulo"> Raio: </label>
     <input id="raio-circulo" type="number" />
     <button onclick="circulo()">Calcular</button>
-
-    <p id="resultadoAreaCirculo">Resultado da Área:</p>
-    <p id="resultadoPerimetroCirculo">Resultado do Perímetro:</p>
-    <script>
-      function retangulo() {
-        var base = document.getElementById("base-retangulo").value;
-        var altura = document.getElementById("altura-retangulo").value;
-
-        document.getElementById("resultadoArea").innerHTML =
-          "Resultado da Área: " + base * altura;
-        document.getElementById("resultadoPerimetro").innerHTML =
-          "Resultado do Perímetro: " + 2 * (base * altura);
-      }
-      function circulo() {
-        var raio = document.getElementById("raio-circulo").value;
-
-        document.getElementById("resultadoAreaCirculo").innerHTML =
-          "Resultado da Área: " + Math.PI * Math.pow(raio, 2);
-        document.getElementById("resultadoPerimetroCirculo").innerHTML =
-          "Resultado do Perímetro: " + 2 * Math.PI * raio;
-      }
-    </script>
-  </body>
-</html>
